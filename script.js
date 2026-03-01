@@ -9,6 +9,8 @@ function convertvalues() {
     const brl = document.querySelector(".brl")
     const uss = document.querySelector(".uss")
     const euroToDay = 6.06
+    const libraToDay = 6.92
+    const ieneToDay = 0.03
 
     brl.innerHTML = new Intl.NumberFormat("pt-BR", {
 
@@ -39,6 +41,24 @@ function convertvalues() {
         }).format(inputValue / euroToDay)
     }
 
+    if (select.value == "lib") {
+
+        uss.innerHTML = new Intl.NumberFormat("en-GB", {
+            
+            style: "currency",
+            currency: "GBP" 
+        }).format(inputValue / libraToDay)
+    }
+
+    if (select.value == "ien") {
+
+        uss.innerHTML = new Intl.NumberFormat("ja-JP", {
+
+            style: "currency",
+            currency: "JPY"
+
+        }).format(inputValue / ieneToDay)
+    }
 
 }
 
@@ -57,6 +77,16 @@ select.addEventListener("change", function () {
         currencyImg.src = "./assets/euro.png"
     }
 
+    if (select.value == "lib") {
+        currencyName.innerHTML = "Libra"
+        currencyImg.src = "./assets/libra.png"
+
+    }
+
+    if (select.value == "ien") {
+        currencyName.innerHTML = "Iene"
+        currencyImg.src = "./assets/ienne.png"
+    }
 
     convertvalues()
 })
