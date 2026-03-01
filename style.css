@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+
+body {
+    background: #000000;
+    background-image: url("/assets/61765.jpg") ;    
+    
+    
+}
+
+.logo {
+    height: 150px;
+    margin: auto;
+    display: block;
+    
+}
+
+main {
+    background-color: white;
+    width: 400px;
+    height: 712px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 44px 30px 23px 30px;
+    border: 8px solid #1c148d;
+    
+}
+
+label {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+select {
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #1c148d;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 24px;
+    padding-left: 18px;
+
+}
+
+input {
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #1c148d;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    padding-left: 18px;
+    margin-bottom: 23px;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1c148d;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(66, 63, 255);
+}
+
+button:active {
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+section {
+    width: 327px;
+    height: 276px;
+    border-radius: 20px;
+    border: 1px solid #1c148d;
+    margin-top: 36px;
+    text-align: center;
+}
+
+
+.brazil-flag {
+    margin-top: 12px;
+    height: 48px;  
+}
+
+.arrow {
+    margin-top: 15px;
+    width: 35px;
+    height: 49.94px;
+}
+
+.usa-flag {
+    margin-top: 12px;
+    height: 48px;  
+}
+
+.brazil {
+    font-weight: 600;
+    font-size: 14px;
+    color: #232323;
+}
+
+.usa {
+    font-weight: 600;
+    font-size: 14px;
+    color: #232323;
+}
+
+
+
+
+
+
